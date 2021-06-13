@@ -25,6 +25,7 @@ cd $(dirname "$0")
 
 ./_env.sh
 
-clang --version
+gcc --version
+g++ --version
 
 ./_todo.sh

@@ -34,12 +34,13 @@ FROM base AS build
 
 RUN apt-get update -qq \
  && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-install-recommends \
-    clang \
+    gcc \
+    g++ \
     git \
     make
 
-ENV CC clang
-ENV CXX clang++
+ENV CC gcc
+ENV CXX g++
 
 #---
 
