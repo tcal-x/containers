@@ -66,6 +66,8 @@ DefaultOpts: Dict[str, Tuple[str, str, str]] = {
     "pkg/nextpnr/generic": ["nextpnr", "pkg-generic", None],
     "nextpnr/generic": ["nextpnr", "generic", None],
     "nextpnr": ["nextpnr", None, None],
+    "prjoxide": ["prjoxide", None, None],
+    "pkg/prjoxide": ["prjoxide", "pkg", None],
     "prjtrellis": ["prjtrellis", None, None],
     "pkg/prjtrellis": ["prjtrellis", "pkg", None],
     "prog": ["prog", None, None],
