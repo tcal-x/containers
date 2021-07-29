@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='564pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 1130.00 564.00' width='1130pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 560)'>
+<title>G</title>
+<polygon fill='white' points='-4,4 -4,-560 1126,-560 1126,4 -4,4' stroke='transparent'/>
+<g class='cluster' id='clust15'>
+<title>cluster_yosys</title>
+<polygon fill='none' points='8,-224 8,-492 204,-492 204,-224 8,-224' stroke='black'/>
+</g>
+<g class='cluster' id='clust11'>
+<title>cluster_ghdlYosysPlugin</title>
+<polygon fill='none' points='212,-8 212,-276 516,-276 516,-8 212,-8' stroke='black'/>
+</g>
+<g class='cluster' id='clust7'>
+<title>cluster_ghdl</title>
+<polygon fill='none' points='524,-224 524,-492 1114,-492 1114,-224 524,-224' stroke='black'/>
+</g>
+
+<g class='node' id='node1'>
+<title>d_ghdl</title>
+<polygon fill='none' points='734,-412 686,-412 686,-376 740,-376 740,-406 734,-412' stroke='dodgerblue'/>
+<polyline fill='none' points='734,-412 734,-406 ' stroke='dodgerblue'/>
+<polyline fill='none' points='740,-406 734,-406 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='713' y='-390.3'>ghdl</text>
+</g>
+
+<g class='node' id='node6'>
+<title>ghdl</title>
+<path d='M934,-336.73C934,-338.53 921.9,-340 907,-340 892.1,-340 880,-338.53 880,-336.73 880,-336.73 880,-307.27 880,-307.27 880,-305.47 892.1,-304 907,-304 921.9,-304 934,-305.47 934,-307.27 934,-307.27 934,-336.73 934,-336.73' fill='none' stroke='limegreen'/>
+<path d='M934,-336.73C934,-334.92 921.9,-333.45 907,-333.45 892.1,-333.45 880,-334.92 880,-336.73' fill='none' stroke='limegreen'/>
+<text fill='limegreen' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='907' y='-318.3'>ghdl</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>d_ghdl&#45;&gt;ghdl</title>
+<path d='M740.12,-383.84C770.43,-373.51 820.92,-356.07 864,-340 866.08,-339.22 868.21,-338.42 870.35,-337.6' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='871.7,-340.83 879.76,-333.95 869.18,-334.3 871.7,-340.83' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>ghdl/llvm</title>
+<path d='M854.5,-336.73C854.5,-338.53 835.9,-340 813,-340 790.1,-340 771.5,-338.53 771.5,-336.73 771.5,-336.73 771.5,-307.27 771.5,-307.27 771.5,-305.47 790.1,-304 813,-304 835.9,-304 854.5,-305.47 854.5,-307.27 854.5,-307.27 854.5,-336.73 854.5,-336.73' fill='none' stroke='limegreen'/>
+<path d='M854.5,-336.73C854.5,-334.92 835.9,-333.45 813,-333.45 790.1,-333.45 771.5,-334.92 771.5,-336.73' fill='none' stroke='limegreen'/>
+<text fill='limegreen' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='813' y='-318.3'>ghdl/llvm</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>d_ghdl&#45;&gt;ghdl/llvm</title>
+<path d='M737.46,-375.88C750.39,-366.83 766.43,-355.6 780.4,-345.82' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='782.6,-348.55 788.79,-339.95 778.59,-342.81 782.6,-348.55' stroke='black'/>
+</g>
+
+<g class='node' id='node10'>
+<title>pkg/ghdl</title>
+<path d='M752.5,-336.73C752.5,-338.53 734.8,-340 713,-340 691.2,-340 673.5,-338.53 673.5,-336.73 673.5,-336.73 673.5,-307.27 673.5,-307.27 673.5,-305.47 691.2,-304 713,-304 734.8,-304 752.5,-305.47 752.5,-307.27 752.5,-307.27 752.5,-336.73 752.5,-336.73' fill='none' stroke='mediumblue'/>
+<path d='M752.5,-336.73C752.5,-334.92 734.8,-333.45 713,-333.45 691.2,-333.45 673.5,-334.92 673.5,-336.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='713' y='-318.3'>pkg/ghdl</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>d_ghdl&#45;&gt;pkg/ghdl</title>
+<path d='M713,-375.7C713,-367.98 713,-358.71 713,-350.11' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='716.5,-350.1 713,-340.1 709.5,-350.1 716.5,-350.1' stroke='black'/>
+</g>
+
+<g class='node' id='node11'>
+<title>pkg/ghdl/llvm</title>
+<path d='M654,-336.73C654,-338.53 628.45,-340 597,-340 565.55,-340 540,-338.53 540,-336.73 540,-336.73 540,-307.27 540,-307.27 540,-305.47 565.55,-304 597,-304 628.45,-304 654,-305.47 654,-307.27 654,-307.27 654,-336.73 654,-336.73' fill='none' stroke='mediumblue'/>
+<path d='M654,-336.73C654,-334.92 628.45,-333.45 597,-333.45 565.55,-333.45 540,-334.92 540,-336.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='597' y='-318.3'>pkg/ghdl/llvm</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>d_ghdl&#45;&gt;pkg/ghdl/llvm</title>
+<path d='M685.8,-376.59C670.43,-367.31 651,-355.59 634.24,-345.47' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='635.61,-342.21 625.24,-340.04 631.99,-348.2 635.61,-342.21' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>d_ghdlYosysPlugin</title>
+<polygon fill='none' points='413,-196 277,-196 277,-160 419,-160 419,-190 413,-196' stroke='dodgerblue'/>
+<polyline fill='none' points='413,-196 413,-190 ' stroke='dodgerblue'/>
+<polyline fill='none' points='419,-190 413,-190 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='348' y='-174.3'>ghdl&#45;yosys&#45;plugin</text>
+</g>
+
+<g class='node' id='node8'>
+<title>ghdl/yosys</title>
+<path d='M314,-120.73C314,-122.53 293.38,-124 268,-124 242.62,-124 222,-122.53 222,-120.73 222,-120.73 222,-91.27 222,-91.27 222,-89.47 242.62,-88 268,-88 293.38,-88 314,-89.47 314,-91.27 314,-91.27 314,-120.73 314,-120.73' fill='none' stroke='limegreen'/>
+<path d='M314,-120.73C314,-118.92 293.38,-117.45 268,-117.45 242.62,-117.45 222,-118.92 222,-120.73' fill='none' stroke='limegreen'/>
+<text fill='limegreen' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='268' y='-102.3'>ghdl/yosys</text>
+</g>
+
+<g class='edge' id='edge9'>
+<title>d_ghdlYosysPlugin&#45;&gt;ghdl/yosys</title>
+<path d='M328.22,-159.7C318.25,-150.97 305.99,-140.24 295.14,-130.75' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='297.38,-128.06 287.55,-124.1 292.77,-133.32 297.38,-128.06' stroke='black'/>
+</g>
+
+<g class='node' id='node12'>
+<title>pkg/ghdl&#45;yosys&#45;plugin</title>
+<path d='M507.5,-120.73C507.5,-122.53 468.73,-124 421,-124 373.27,-124 334.5,-122.53 334.5,-120.73 334.5,-120.73 334.5,-91.27 334.5,-91.27 334.5,-89.47 373.27,-88 421,-88 468.73,-88 507.5,-89.47 507.5,-91.27 507.5,-91.27 507.5,-120.73 507.5,-120.73' fill='none' stroke='mediumblue'/>
+<path d='M507.5,-120.73C507.5,-118.92 468.73,-117.45 421,-117.45 373.27,-117.45 334.5,-118.92 334.5,-120.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='421' y='-102.3'>pkg/ghdl&#45;yosys&#45;plugin</text>
+</g>
+
+<g class='edge' id='edge10'>
+<title>d_ghdlYosysPlugin&#45;&gt;pkg/ghdl&#45;yosys&#45;plugin</title>
+<path d='M366.04,-159.7C375.06,-151.05 386.12,-140.45 395.94,-131.03' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='398.37,-133.55 403.16,-124.1 393.52,-128.5 398.37,-133.55' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>d_yosys</title>
+<polygon fill='none' points='133,-412 83,-412 83,-376 139,-376 139,-406 133,-412' stroke='dodgerblue'/>
+<polyline fill='none' points='133,-412 133,-406 ' stroke='dodgerblue'/>
+<polyline fill='none' points='139,-406 133,-406 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='111' y='-390.3'>yosys</text>
+</g>
+
+<g class='node' id='node9'>
+<title>yosys</title>
+<path d='M90,-336.73C90,-338.53 77.45,-340 62,-340 46.55,-340 34,-338.53 34,-336.73 34,-336.73 34,-307.27 34,-307.27 34,-305.47 46.55,-304 62,-304 77.45,-304 90,-305.47 90,-307.27 90,-307.27 90,-336.73 90,-336.73' fill='none' stroke='limegreen'/>
+<path d='M90,-336.73C90,-334.92 77.45,-333.45 62,-333.45 46.55,-333.45 34,-334.92 34,-336.73' fill='none' stroke='limegreen'/>
+<text fill='limegreen' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-318.3'>yosys</text>
+</g>
+
+<g class='edge' id='edge13'>
+<title>d_yosys&#45;&gt;yosys</title>
+<path d='M98.89,-375.7C93.13,-367.47 86.14,-357.48 79.79,-348.42' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='82.58,-346.29 73.97,-340.1 76.84,-350.3 82.58,-346.29' stroke='black'/>
+</g>
+
+<g class='node' id='node13'>
+<title>pkg/yosys</title>
+<path d='M195.5,-336.73C195.5,-338.53 176,-340 152,-340 128,-340 108.5,-338.53 108.5,-336.73 108.5,-336.73 108.5,-307.27 108.5,-307.27 108.5,-305.47 128,-304 152,-304 176,-304 195.5,-305.47 195.5,-307.27 195.5,-307.27 195.5,-336.73 195.5,-336.73' fill='none' stroke='mediumblue'/>
+<path d='M195.5,-336.73C195.5,-334.92 176,-333.45 152,-333.45 128,-333.45 108.5,-334.92 108.5,-336.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='152' y='-318.3'>pkg/yosys</text>
+</g>
+
+<g class='edge' id='edge14'>
+<title>d_yosys&#45;&gt;pkg/yosys</title>
+<path d='M121.13,-375.7C125.85,-367.64 131.56,-357.89 136.78,-348.98' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='139.95,-350.5 141.98,-340.1 133.91,-346.96 139.95,-350.5' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>build/base</title>
+<path d='M1106,-552.73C1106,-554.53 1085.83,-556 1061,-556 1036.17,-556 1016,-554.53 1016,-552.73 1016,-552.73 1016,-523.27 1016,-523.27 1016,-521.47 1036.17,-520 1061,-520 1085.83,-520 1106,-521.47 1106,-523.27 1106,-523.27 1106,-552.73 1106,-552.73' fill='none' stroke='black'/>
+<path d='M1106,-552.73C1106,-550.92 1085.83,-549.45 1061,-549.45 1036.17,-549.45 1016,-550.92 1016,-552.73' fill='none' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1061' y='-534.3'>build/base</text>
+</g>
+
+<g class='node' id='node17'>
+<title>p_ghdl_build/base</title>
+<path d='M1106,-480.73C1106,-482.53 1085.83,-484 1061,-484 1036.17,-484 1016,-482.53 1016,-480.73 1016,-480.73 1016,-451.27 1016,-451.27 1016,-449.47 1036.17,-448 1061,-448 1085.83,-448 1106,-449.47 1106,-451.27 1106,-451.27 1106,-480.73 1106,-480.73' fill='none' stroke='grey'/>
+<path d='M1106,-480.73C1106,-478.92 1085.83,-477.45 1061,-477.45 1036.17,-477.45 1016,-478.92 1016,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1061' y='-462.3'>build/base</text>
+</g>
+
+<g class='edge' id='edge23'>
+<title>build/base&#45;&gt;p_ghdl_build/base</title>
+<path d='M1061,-519.7C1061,-511.98 1061,-502.71 1061,-494.11' fill='none' stroke='black'/>
+<polygon fill='black' points='1064.5,-494.1 1061,-484.1 1057.5,-494.1 1064.5,-494.1' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>build/build</title>
+<path d='M108.5,-552.73C108.5,-554.53 87.66,-556 62,-556 36.34,-556 15.5,-554.53 15.5,-552.73 15.5,-552.73 15.5,-523.27 15.5,-523.27 15.5,-521.47 36.34,-520 62,-520 87.66,-520 108.5,-521.47 108.5,-523.27 108.5,-523.27 108.5,-552.73 108.5,-552.73' fill='none' stroke='black'/>
+<path d='M108.5,-552.73C108.5,-550.92 87.66,-549.45 62,-549.45 36.34,-549.45 15.5,-550.92 15.5,-552.73' fill='none' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-534.3'>build/build</text>
+</g>
+
+<g class='node' id='node29'>
+<title>p_yosys_build/build</title>
+<path d='M108.5,-480.73C108.5,-482.53 87.66,-484 62,-484 36.34,-484 15.5,-482.53 15.5,-480.73 15.5,-480.73 15.5,-451.27 15.5,-451.27 15.5,-449.47 36.34,-448 62,-448 87.66,-448 108.5,-449.47 108.5,-451.27 108.5,-451.27 108.5,-480.73 108.5,-480.73' fill='none' stroke='grey'/>
+<path d='M108.5,-480.73C108.5,-478.92 87.66,-477.45 62,-477.45 36.34,-477.45 15.5,-478.92 15.5,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-462.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge29'>
+<title>build/build&#45;&gt;p_yosys_build/build</title>
+<path d='M62,-519.7C62,-511.98 62,-502.71 62,-494.11' fill='none' stroke='black'/>
+<polygon fill='black' points='65.5,-494.1 62,-484.1 58.5,-494.1 65.5,-494.1' stroke='black'/>
+</g>
+
+<g class='node' id='node21'>
+<title>t_ghdl</title>
+<polygon fill='none' points='934,-268 931,-272 910,-272 907,-268 880,-268 880,-232 934,-232 934,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='907' y='-246.3'>ghdl</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>ghdl&#45;&gt;t_ghdl</title>
+<path d='M907,-303.7C907,-295.98 907,-286.71 907,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='910.5,-278.1 907,-268.1 903.5,-278.1 910.5,-278.1' stroke='black'/>
+</g>
+
+<g class='node' id='node22'>
+<title>t_ghdl/llvm</title>
+<polygon fill='none' points='858,-268 855,-272 834,-272 831,-268 770,-268 770,-232 858,-232 858,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='814' y='-246.3'>ghdl&#45;&#45;llvm</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>ghdl/llvm&#45;&gt;t_ghdl/llvm</title>
+<path d='M813.25,-303.7C813.36,-295.98 813.49,-286.71 813.61,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='817.11,-278.15 813.76,-268.1 810.11,-278.05 817.11,-278.15' stroke='black'/>
+</g>
+
+<g class='node' id='node28'>
+<title>t_ghdl/yosys</title>
+<polygon fill='none' points='316.5,-52 313.5,-56 292.5,-56 289.5,-52 219.5,-52 219.5,-16 316.5,-16 316.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='268' y='-30.3'>ghdl&#45;&#45;yosys</text>
+</g>
+
+<g class='edge' id='edge12'>
+<title>ghdl/yosys&#45;&gt;t_ghdl/yosys</title>
+<path d='M268,-87.7C268,-79.98 268,-70.71 268,-62.11' fill='none' stroke='black'/>
+<polygon fill='black' points='271.5,-62.1 268,-52.1 264.5,-62.1 271.5,-62.1' stroke='black'/>
+</g>
+
+<g class='node' id='node25'>
+<title>p_ghdl&#45;yosys&#45;plugin_yosys</title>
+<path d='M286,-264.73C286,-266.53 273.45,-268 258,-268 242.55,-268 230,-266.53 230,-264.73 230,-264.73 230,-235.27 230,-235.27 230,-233.47 242.55,-232 258,-232 273.45,-232 286,-233.47 286,-235.27 286,-235.27 286,-264.73 286,-264.73' fill='none' stroke='grey'/>
+<path d='M286,-264.73C286,-262.92 273.45,-261.45 258,-261.45 242.55,-261.45 230,-262.92 230,-264.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='258' y='-246.3'>yosys</text>
+</g>
+
+<g class='edge' id='edge27'>
+<title>yosys&#45;&gt;p_ghdl&#45;yosys&#45;plugin_yosys</title>
+<path d='M90.07,-307.47C93.05,-306.23 96.07,-305.04 99,-304 146.14,-287.27 161.15,-293.5 208,-276 212.2,-274.43 216.52,-272.61 220.77,-270.68' fill='none' stroke='black'/>
+<polygon fill='black' points='222.38,-273.8 229.91,-266.35 219.37,-267.47 222.38,-273.8' stroke='black'/>
+</g>
+
+<g class='node' id='node31'>
+<title>t_yosys</title>
+<polygon fill='none' points='90,-268 87,-272 66,-272 63,-268 34,-268 34,-232 90,-232 90,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-246.3'>yosys</text>
+</g>
+
+<g class='edge' id='edge15'>
+<title>yosys&#45;&gt;t_yosys</title>
+<path d='M62,-303.7C62,-295.98 62,-286.71 62,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='65.5,-278.1 62,-268.1 58.5,-278.1 65.5,-278.1' stroke='black'/>
+</g>
+
+<g class='node' id='node23'>
+<title>t_pkg/ghdl</title>
+<polygon fill='none' points='752.5,-268 749.5,-272 728.5,-272 725.5,-268 673.5,-268 673.5,-232 752.5,-232 752.5,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='713' y='-246.3'>ghdl.pkg</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>pkg/ghdl&#45;&gt;t_pkg/ghdl</title>
+<path d='M713,-303.7C713,-295.98 713,-286.71 713,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='716.5,-278.1 713,-268.1 709.5,-278.1 716.5,-278.1' stroke='black'/>
+</g>
+
+<g class='node' id='node26'>
+<title>p_ghdl&#45;yosys&#45;plugin_pkg/ghdl</title>
+<path d='M477.5,-264.73C477.5,-266.53 459.8,-268 438,-268 416.2,-268 398.5,-266.53 398.5,-264.73 398.5,-264.73 398.5,-235.27 398.5,-235.27 398.5,-233.47 416.2,-232 438,-232 459.8,-232 477.5,-233.47 477.5,-235.27 477.5,-235.27 477.5,-264.73 477.5,-264.73' fill='none' stroke='grey'/>
+<path d='M477.5,-264.73C477.5,-262.92 459.8,-261.45 438,-261.45 416.2,-261.45 398.5,-262.92 398.5,-264.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='438' y='-246.3'>pkg/ghdl</text>
+</g>
+
+<g class='edge' id='edge25'>
+<title>pkg/ghdl&#45;&gt;p_ghdl&#45;yosys&#45;plugin_pkg/ghdl</title>
+<path d='M673.3,-306.97C669.84,-305.9 666.37,-304.9 663,-304 600.42,-287.32 582.83,-291.69 520,-276 509.39,-273.35 498.11,-270.16 487.42,-266.96' fill='none' stroke='black'/>
+<polygon fill='black' points='488.4,-263.6 477.81,-264.03 486.36,-270.3 488.4,-263.6' stroke='black'/>
+</g>
+
+<g class='node' id='node24'>
+<title>t_pkg/ghdl/llvm</title>
+<polygon fill='none' points='655.5,-268 652.5,-272 631.5,-272 628.5,-268 536.5,-268 536.5,-232 655.5,-232 655.5,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='596' y='-246.3'>ghdl&#45;&#45;llvm.pkg</text>
+</g>
+
+<g class='edge' id='edge8'>
+<title>pkg/ghdl/llvm&#45;&gt;t_pkg/ghdl/llvm</title>
+<path d='M596.75,-303.7C596.64,-295.98 596.51,-286.71 596.39,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='599.89,-278.05 596.24,-268.1 592.89,-278.15 599.89,-278.05' stroke='black'/>
+</g>
+
+<g class='node' id='node27'>
+<title>t_pkg/ghdl&#45;yosys&#45;plugin</title>
+<polygon fill='none' points='507.5,-52 504.5,-56 483.5,-56 480.5,-52 334.5,-52 334.5,-16 507.5,-16 507.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='421' y='-30.3'>ghdl&#45;yosys&#45;plugin.pkg</text>
+</g>
+
+<g class='edge' id='edge11'>
+<title>pkg/ghdl&#45;yosys&#45;plugin&#45;&gt;t_pkg/ghdl&#45;yosys&#45;plugin</title>
+<path d='M421,-87.7C421,-79.98 421,-70.71 421,-62.11' fill='none' stroke='black'/>
+<polygon fill='black' points='424.5,-62.1 421,-52.1 417.5,-62.1 424.5,-62.1' stroke='black'/>
+</g>
+
+<g class='node' id='node32'>
+<title>t_pkg/yosys</title>
+<polygon fill='none' points='195.5,-268 192.5,-272 171.5,-272 168.5,-268 108.5,-268 108.5,-232 195.5,-232 195.5,-268' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='152' y='-246.3'>yosys.pkg</text>
+</g>
+
+<g class='edge' id='edge16'>
+<title>pkg/yosys&#45;&gt;t_pkg/yosys</title>
+<path d='M152,-303.7C152,-295.98 152,-286.71 152,-278.11' fill='none' stroke='black'/>
+<polygon fill='black' points='155.5,-278.1 152,-268.1 148.5,-278.1 155.5,-278.1' stroke='black'/>
+</g>
+
+<g class='node' id='node14'>
+<title>scratch</title>
+<path d='M398.5,-552.73C398.5,-554.53 383.04,-556 364,-556 344.96,-556 329.5,-554.53 329.5,-552.73 329.5,-552.73 329.5,-523.27 329.5,-523.27 329.5,-521.47 344.96,-520 364,-520 383.04,-520 398.5,-521.47 398.5,-523.27 398.5,-523.27 398.5,-552.73 398.5,-552.73' fill='none' stroke='orange'/>
+<path d='M398.5,-552.73C398.5,-550.92 383.04,-549.45 364,-549.45 344.96,-549.45 329.5,-550.92 329.5,-552.73' fill='none' stroke='orange'/>
+<text fill='orange' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='364' y='-534.3'>scratch</text>
+</g>
+
+<g class='node' id='node18'>
+<title>p_ghdl_scratch</title>
+<path d='M601.5,-480.73C601.5,-482.53 586.04,-484 567,-484 547.96,-484 532.5,-482.53 532.5,-480.73 532.5,-480.73 532.5,-451.27 532.5,-451.27 532.5,-449.47 547.96,-448 567,-448 586.04,-448 601.5,-449.47 601.5,-451.27 601.5,-451.27 601.5,-480.73 601.5,-480.73' fill='none' stroke='grey'/>
+<path d='M601.5,-480.73C601.5,-478.92 586.04,-477.45 567,-477.45 547.96,-477.45 532.5,-478.92 532.5,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='567' y='-462.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge17'>
+<title>scratch&#45;&gt;p_ghdl_scratch</title>
+<path d='M398.9,-524.97C433.13,-513.16 485.47,-495.11 522.64,-482.3' fill='none' stroke='black'/>
+<polygon fill='black' points='523.91,-485.56 532.22,-478.99 521.62,-478.94 523.91,-485.56' stroke='black'/>
+</g>
+
+<g class='node' id='node30'>
+<title>p_yosys_scratch</title>
+<path d='M195.5,-480.73C195.5,-482.53 180.04,-484 161,-484 141.96,-484 126.5,-482.53 126.5,-480.73 126.5,-480.73 126.5,-451.27 126.5,-451.27 126.5,-449.47 141.96,-448 161,-448 180.04,-448 195.5,-449.47 195.5,-451.27 195.5,-451.27 195.5,-480.73 195.5,-480.73' fill='none' stroke='grey'/>
+<path d='M195.5,-480.73C195.5,-478.92 180.04,-477.45 161,-477.45 141.96,-477.45 126.5,-478.92 126.5,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='161' y='-462.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge31'>
+<title>scratch&#45;&gt;p_yosys_scratch</title>
+<path d='M329.1,-524.97C294.87,-513.16 242.53,-495.11 205.36,-482.3' fill='none' stroke='black'/>
+<polygon fill='black' points='206.38,-478.94 195.78,-478.99 204.09,-485.56 206.38,-478.94' stroke='black'/>
+</g>
+
+<g class='node' id='node15'>
+<title>ghdl/pkg:buster&#45;mcode</title>
+<path d='M997.5,-552.73C997.5,-554.53 956.94,-556 907,-556 857.06,-556 816.5,-554.53 816.5,-552.73 816.5,-552.73 816.5,-523.27 816.5,-523.27 816.5,-521.47 857.06,-520 907,-520 956.94,-520 997.5,-521.47 997.5,-523.27 997.5,-523.27 997.5,-552.73 997.5,-552.73' fill='none' stroke='orange'/>
+<path d='M997.5,-552.73C997.5,-550.92 956.94,-549.45 907,-549.45 857.06,-549.45 816.5,-550.92 816.5,-552.73' fill='none' stroke='orange'/>
+<text fill='orange' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='907' y='-534.3'>ghdl/pkg:buster&#45;mcode</text>
+</g>
+
+<g class='node' id='node19'>
+<title>p_ghdl_buster</title>
+<path d='M997.5,-480.73C997.5,-482.53 956.94,-484 907,-484 857.06,-484 816.5,-482.53 816.5,-480.73 816.5,-480.73 816.5,-451.27 816.5,-451.27 816.5,-449.47 857.06,-448 907,-448 956.94,-448 997.5,-449.47 997.5,-451.27 997.5,-451.27 997.5,-480.73 997.5,-480.73' fill='none' stroke='grey'/>
+<path d='M997.5,-480.73C997.5,-478.92 956.94,-477.45 907,-477.45 857.06,-477.45 816.5,-478.92 816.5,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='907' y='-462.3'>ghdl/pkg:buster&#45;mcode</text>
+</g>
+
+<g class='edge' id='edge19'>
+<title>ghdl/pkg:buster&#45;mcode&#45;&gt;p_ghdl_buster</title>
+<path d='M907,-519.7C907,-511.98 907,-502.71 907,-494.11' fill='none' stroke='black'/>
+<polygon fill='black' points='910.5,-494.1 907,-484.1 903.5,-494.1 910.5,-494.1' stroke='black'/>
+</g>
+
+<g class='node' id='node16'>
+<title>ghdl/pkg:buster&#45;llvm&#45;7</title>
+<path d='M798.5,-552.73C798.5,-554.53 758.38,-556 709,-556 659.62,-556 619.5,-554.53 619.5,-552.73 619.5,-552.73 619.5,-523.27 619.5,-523.27 619.5,-521.47 659.62,-520 709,-520 758.38,-520 798.5,-521.47 798.5,-523.27 798.5,-523.27 798.5,-552.73 798.5,-552.73' fill='none' stroke='orange'/>
+<path d='M798.5,-552.73C798.5,-550.92 758.38,-549.45 709,-549.45 659.62,-549.45 619.5,-550.92 619.5,-552.73' fill='none' stroke='orange'/>
+<text fill='orange' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='709' y='-534.3'>ghdl/pkg:buster&#45;llvm&#45;7</text>
+</g>
+
+<g class='node' id='node20'>
+<title>p_ghdl_buster&#45;llvm</title>
+<path d='M798.5,-480.73C798.5,-482.53 758.38,-484 709,-484 659.62,-484 619.5,-482.53 619.5,-480.73 619.5,-480.73 619.5,-451.27 619.5,-451.27 619.5,-449.47 659.62,-448 709,-448 758.38,-448 798.5,-449.47 798.5,-451.27 798.5,-451.27 798.5,-480.73 798.5,-480.73' fill='none' stroke='grey'/>
+<path d='M798.5,-480.73C798.5,-478.92 758.38,-477.45 709,-477.45 659.62,-477.45 619.5,-478.92 619.5,-480.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='709' y='-462.3'>ghdl/pkg:buster&#45;llvm&#45;7</text>
+</g>
+
+<g class='edge' id='edge21'>
+<title>ghdl/pkg:buster&#45;llvm&#45;7&#45;&gt;p_ghdl_buster&#45;llvm</title>
+<path d='M709,-519.7C709,-511.98 709,-502.71 709,-494.11' fill='none' stroke='black'/>
+<polygon fill='black' points='712.5,-494.1 709,-484.1 705.5,-494.1 712.5,-494.1' stroke='black'/>
+</g>
+
+<g class='edge' id='edge24'>
+<title>p_ghdl_build/base&#45;&gt;d_ghdl</title>
+<path d='M1015.74,-450.3C1012.8,-449.48 1009.86,-448.71 1007,-448 915.93,-425.55 806.81,-408.37 750.59,-400.22' fill='none' stroke='black'/>
+<polygon fill='black' points='750.8,-396.71 740.4,-398.75 749.8,-403.64 750.8,-396.71' stroke='black'/>
+</g>
+
+<g class='edge' id='edge35'>
+<title>p_ghdl_build/base&#45;&gt;ghdl</title>
+<path d='M1049.66,-447.91C1036.53,-428.93 1013.54,-398.06 989,-376 975.22,-363.61 958.26,-352.14 943.34,-343.06' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='944.75,-339.83 934.37,-337.73 941.18,-345.85 944.75,-339.83' stroke='black'/>
+</g>
+
+<g class='edge' id='edge36'>
+<title>p_ghdl_build/base&#45;&gt;ghdl/llvm</title>
+<path d='M1031.58,-448.15C986.52,-422.36 900.46,-373.08 850.83,-344.66' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='852.42,-341.54 842,-339.61 848.94,-347.61 852.42,-341.54' stroke='black'/>
+</g>
+
+<g class='edge' id='edge18'>
+<title>p_ghdl_scratch&#45;&gt;d_ghdl</title>
+<path d='M599.77,-449.29C622.52,-438.38 652.87,-423.83 676.42,-412.54' fill='none' stroke='black'/>
+<polygon fill='black' points='678.22,-415.55 685.73,-408.08 675.2,-409.24 678.22,-415.55' stroke='black'/>
+</g>
+
+<g class='edge' id='edge33'>
+<title>p_ghdl_scratch&#45;&gt;pkg/ghdl</title>
+<path d='M584.61,-447.87C610.37,-422.82 658.45,-376.05 687.91,-347.41' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='690.6,-349.67 695.33,-340.19 685.72,-344.65 690.6,-349.67' stroke='black'/>
+</g>
+
+<g class='edge' id='edge34'>
+<title>p_ghdl_scratch&#45;&gt;pkg/ghdl/llvm</title>
+<path d='M570.62,-447.87C575.75,-423.56 585.21,-378.82 591.29,-350.01' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='594.73,-350.7 593.37,-340.19 587.88,-349.25 594.73,-350.7' stroke='black'/>
+</g>
+
+<g class='edge' id='edge20'>
+<title>p_ghdl_buster&#45;&gt;d_ghdl</title>
+<path d='M859.54,-447.88C825.73,-435.68 780.95,-419.52 749.83,-408.29' fill='none' stroke='black'/>
+<polygon fill='black' points='750.83,-404.93 740.24,-404.83 748.45,-411.51 750.83,-404.93' stroke='black'/>
+</g>
+
+<g class='edge' id='edge41'>
+<title>p_ghdl_buster&#45;&gt;ghdl</title>
+<path d='M907,-447.87C907,-423.67 907,-379.21 907,-350.39' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='910.5,-350.19 907,-340.19 903.5,-350.19 910.5,-350.19' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge42'>
+<title>p_ghdl_buster&#45;&gt;pkg/ghdl</title>
+<path d='M883.6,-447.87C848.84,-422.43 783.49,-374.6 744.54,-346.09' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='746.32,-343.05 736.18,-339.97 742.18,-348.7 746.32,-343.05' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge22'>
+<title>p_ghdl_buster&#45;llvm&#45;&gt;d_ghdl</title>
+<path d='M709.99,-447.7C710.43,-439.98 710.96,-430.71 711.45,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='714.95,-422.29 712.02,-412.1 707.96,-421.89 714.95,-422.29' stroke='black'/>
+</g>
+
+<g class='edge' id='edge43'>
+<title>p_ghdl_buster&#45;llvm&#45;&gt;ghdl/llvm</title>
+<path d='M722.07,-447.89C729.93,-437.54 740.11,-424.07 749,-412 764.72,-390.67 782.27,-366.22 795.01,-348.35' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='797.9,-350.32 800.85,-340.15 792.2,-346.26 797.9,-350.32' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge44'>
+<title>p_ghdl_buster&#45;llvm&#45;&gt;pkg/ghdl/llvm</title>
+<path d='M695.49,-447.87C675.9,-423.03 639.47,-376.85 616.83,-348.14' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='619.5,-345.87 610.56,-340.19 614,-350.21 619.5,-345.87' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge28'>
+<title>p_ghdl&#45;yosys&#45;plugin_yosys&#45;&gt;d_ghdlYosysPlugin</title>
+<path d='M279.33,-232.41C290.84,-223.46 305.24,-212.25 317.88,-202.42' fill='none' stroke='black'/>
+<polygon fill='black' points='320.14,-205.1 325.88,-196.2 315.84,-199.58 320.14,-205.1' stroke='black'/>
+</g>
+
+<g class='edge' id='edge39'>
+<title>p_ghdl&#45;yosys&#45;plugin_yosys&#45;&gt;ghdl/yosys</title>
+<path d='M259.21,-231.87C260.91,-207.67 264.04,-163.21 266.07,-134.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='269.58,-134.41 266.79,-124.19 262.6,-133.92 269.58,-134.41' stroke='black'/>
+</g>
+
+<g class='edge' id='edge26'>
+<title>p_ghdl&#45;yosys&#45;plugin_pkg/ghdl&#45;&gt;d_ghdlYosysPlugin</title>
+<path d='M415.75,-231.7C404.42,-222.88 390.47,-212.03 378.18,-202.47' fill='none' stroke='black'/>
+<polygon fill='black' points='380.03,-199.48 369.99,-196.1 375.74,-205.01 380.03,-199.48' stroke='black'/>
+</g>
+
+<g class='edge' id='edge40'>
+<title>p_ghdl&#45;yosys&#45;plugin_pkg/ghdl&#45;&gt;pkg/ghdl&#45;yosys&#45;plugin</title>
+<path d='M436.18,-231.93C434.25,-214 431.06,-185 428,-160 426.97,-151.58 425.78,-142.41 424.68,-134.11' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='428.15,-133.62 423.35,-124.18 421.21,-134.55 428.15,-133.62' stroke='black'/>
+</g>
+
+<g class='edge' id='edge30'>
+<title>p_yosys_build/build&#45;&gt;d_yosys</title>
+<path d='M74.11,-447.7C79.87,-439.47 86.86,-429.48 93.21,-420.42' fill='none' stroke='black'/>
+<polygon fill='black' points='96.16,-422.3 99.03,-412.1 90.42,-418.29 96.16,-422.3' stroke='black'/>
+</g>
+
+<g class='edge' id='edge38'>
+<title>p_yosys_build/build&#45;&gt;yosys</title>
+<path d='M62,-447.87C62,-423.67 62,-379.21 62,-350.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='65.5,-350.19 62,-340.19 58.5,-350.19 65.5,-350.19' stroke='black'/>
+</g>
+
+<g class='edge' id='edge32'>
+<title>p_yosys_scratch&#45;&gt;d_yosys</title>
+<path d='M148.64,-447.7C142.77,-439.47 135.63,-429.48 129.16,-420.42' fill='none' stroke='black'/>
+<polygon fill='black' points='131.88,-418.21 123.22,-412.1 126.18,-422.28 131.88,-418.21' stroke='black'/>
+</g>
+
+<g class='edge' id='edge37'>
+<title>p_yosys_scratch&#45;&gt;pkg/yosys</title>
+<path d='M159.91,-447.87C158.38,-423.67 155.56,-379.21 153.74,-350.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='157.22,-349.95 153.09,-340.19 150.23,-350.39 157.22,-349.95' stroke='black'/>
+</g>
+</g>
+</svg>

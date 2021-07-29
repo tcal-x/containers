@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='708pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 2366.00 708.00' width='2366pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 704)'>
+<title>G</title>
+<polygon fill='white' points='-4,4 -4,-704 2362,-704 2362,4 -4,4' stroke='transparent'/>
+<g class='cluster' id='clust22'>
+<title>cluster_formal</title>
+<polygon fill='none' points='824,-8 824,-420 1740,-420 1740,-8 824,-8' stroke='black'/>
+</g>
+<g class='cluster' id='clust16'>
+<title>cluster_symbiyosys</title>
+<polygon fill='none' points='2156,-368 2156,-636 2350,-636 2350,-368 2156,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust18'>
+<title>cluster_yices2</title>
+<polygon fill='none' points='1952,-368 1952,-636 2148,-636 2148,-368 1952,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust20'>
+<title>cluster_z3</title>
+<polygon fill='none' points='212,-368 212,-636 408,-636 408,-368 212,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust8'>
+<title>cluster_boolector</title>
+<polygon fill='none' points='416,-368 416,-636 612,-636 612,-368 416,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust10'>
+<title>cluster_cvc</title>
+<polygon fill='none' points='620,-368 620,-636 816,-636 816,-368 620,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust12'>
+<title>cluster_pono</title>
+<polygon fill='none' points='8,-368 8,-636 204,-636 204,-368 8,-368' stroke='black'/>
+</g>
+<g class='cluster' id='clust14'>
+<title>cluster_superprove</title>
+<polygon fill='none' points='1748,-368 1748,-636 1944,-636 1944,-368 1748,-368' stroke='black'/>
+</g>
+
+<g class='node' id='node1'>
+<title>d_boolector</title>
+<polygon fill='none' points='543.5,-556 466.5,-556 466.5,-520 549.5,-520 549.5,-550 543.5,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='543.5,-556 543.5,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='549.5,-550 543.5,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='508' y='-534.3'>boolector</text>
+</g>
+
+<g class='node' id='node12'>
+<title>pkg/boolector</title>
+<path d='M604,-480.73C604,-482.53 578.45,-484 547,-484 515.55,-484 490,-482.53 490,-480.73 490,-480.73 490,-451.27 490,-451.27 490,-449.47 515.55,-448 547,-448 578.45,-448 604,-449.47 604,-451.27 604,-451.27 604,-480.73 604,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M604,-480.73C604,-478.92 578.45,-477.45 547,-477.45 515.55,-477.45 490,-478.92 490,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='547' y='-462.3'>pkg/boolector</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>d_boolector&#45;&gt;pkg/boolector</title>
+<path d='M517.64,-519.7C522.13,-511.64 527.56,-501.89 532.52,-492.98' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='535.66,-494.54 537.47,-484.1 529.55,-491.14 535.66,-494.54' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>d_pono</title>
+<polygon fill='none' points='136,-556 88,-556 88,-520 142,-520 142,-550 136,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='136,-556 136,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='142,-550 136,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='115' y='-534.3'>pono</text>
+</g>
+
+<g class='node' id='node14'>
+<title>pkg/pono</title>
+<path d='M196,-480.73C196,-482.53 177.62,-484 155,-484 132.38,-484 114,-482.53 114,-480.73 114,-480.73 114,-451.27 114,-451.27 114,-449.47 132.38,-448 155,-448 177.62,-448 196,-449.47 196,-451.27 196,-451.27 196,-480.73 196,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M196,-480.73C196,-478.92 177.62,-477.45 155,-477.45 132.38,-477.45 114,-478.92 114,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='155' y='-462.3'>pkg/pono</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>d_pono&#45;&gt;pkg/pono</title>
+<path d='M124.89,-519.7C129.49,-511.64 135.06,-501.89 140.15,-492.98' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='143.3,-494.52 145.23,-484.1 137.23,-491.05 143.3,-494.52' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>d_cvc</title>
+<polygon fill='none' points='748,-556 700,-556 700,-520 754,-520 754,-550 748,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='748,-556 748,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='754,-550 748,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='727' y='-534.3'>cvc</text>
+</g>
+
+<g class='node' id='node13'>
+<title>pkg/cvc</title>
+<path d='M807.5,-480.73C807.5,-482.53 791.59,-484 772,-484 752.41,-484 736.5,-482.53 736.5,-480.73 736.5,-480.73 736.5,-451.27 736.5,-451.27 736.5,-449.47 752.41,-448 772,-448 791.59,-448 807.5,-449.47 807.5,-451.27 807.5,-451.27 807.5,-480.73 807.5,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M807.5,-480.73C807.5,-478.92 791.59,-477.45 772,-477.45 752.41,-477.45 736.5,-478.92 736.5,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='772' y='-462.3'>pkg/cvc</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>d_cvc&#45;&gt;pkg/cvc</title>
+<path d='M738.12,-519.7C743.36,-511.56 749.7,-501.69 755.48,-492.7' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='758.54,-494.41 761,-484.1 752.65,-490.62 758.54,-494.41' stroke='black'/>
+</g>
+
+<g class='node' id='node4'>
+<title>d_formal</title>
+<polygon fill='none' points='1273.5,-340 1216.5,-340 1216.5,-304 1279.5,-304 1279.5,-334 1273.5,-340' stroke='dodgerblue'/>
+<polyline fill='none' points='1273.5,-340 1273.5,-334 ' stroke='dodgerblue'/>
+<polyline fill='none' points='1279.5,-334 1273.5,-334 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1248' y='-318.3'>formal</text>
+</g>
+
+<g class='node' id='node19'>
+<title>formal/min</title>
+<path d='M1362.5,-264.73C1362.5,-266.53 1341.21,-268 1315,-268 1288.79,-268 1267.5,-266.53 1267.5,-264.73 1267.5,-264.73 1267.5,-235.27 1267.5,-235.27 1267.5,-233.47 1288.79,-232 1315,-232 1341.21,-232 1362.5,-233.47 1362.5,-235.27 1362.5,-235.27 1362.5,-264.73 1362.5,-264.73' fill='none' stroke='brown'/>
+<path d='M1362.5,-264.73C1362.5,-262.92 1341.21,-261.45 1315,-261.45 1288.79,-261.45 1267.5,-262.92 1267.5,-264.73' fill='none' stroke='brown'/>
+<text fill='brown' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1315' y='-246.3'>formal/min</text>
+</g>
+
+<g class='edge' id='edge15'>
+<title>d_formal&#45;&gt;formal/min</title>
+<path d='M1264.56,-303.7C1272.68,-295.22 1282.59,-284.86 1291.47,-275.58' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='1294.24,-277.75 1298.63,-268.1 1289.19,-272.91 1294.24,-277.75' stroke='black'/>
+</g>
+
+<g class='node' id='node20'>
+<title>formal</title>
+<path d='M1220.5,-192.73C1220.5,-194.53 1206.38,-196 1189,-196 1171.62,-196 1157.5,-194.53 1157.5,-192.73 1157.5,-192.73 1157.5,-163.27 1157.5,-163.27 1157.5,-161.47 1171.62,-160 1189,-160 1206.38,-160 1220.5,-161.47 1220.5,-163.27 1220.5,-163.27 1220.5,-192.73 1220.5,-192.73' fill='none' stroke='brown'/>
+<path d='M1220.5,-192.73C1220.5,-190.92 1206.38,-189.45 1189,-189.45 1171.62,-189.45 1157.5,-190.92 1157.5,-192.73' fill='none' stroke='brown'/>
+<text fill='brown' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1189' y='-174.3'>formal</text>
+</g>
+
+<g class='edge' id='edge16'>
+<title>d_formal&#45;&gt;formal</title>
+<path d='M1240.88,-303.87C1230.74,-279.46 1212.03,-234.43 1200.07,-205.64' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='1203.21,-204.08 1196.14,-196.19 1196.75,-206.77 1203.21,-204.08' stroke='black'/>
+</g>
+
+<g class='node' id='node21'>
+<title>formal/all</title>
+<path d='M1294.5,-120.73C1294.5,-122.53 1275.45,-124 1252,-124 1228.55,-124 1209.5,-122.53 1209.5,-120.73 1209.5,-120.73 1209.5,-91.27 1209.5,-91.27 1209.5,-89.47 1228.55,-88 1252,-88 1275.45,-88 1294.5,-89.47 1294.5,-91.27 1294.5,-91.27 1294.5,-120.73 1294.5,-120.73' fill='none' stroke='brown'/>
+<path d='M1294.5,-120.73C1294.5,-118.92 1275.45,-117.45 1252,-117.45 1228.55,-117.45 1209.5,-118.92 1209.5,-120.73' fill='none' stroke='brown'/>
+<text fill='brown' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1252' y='-102.3'>formal/all</text>
+</g>
+
+<g class='edge' id='edge17'>
+<title>d_formal&#45;&gt;formal/all</title>
+<path d='M1248.32,-303.85C1249.01,-266.83 1250.65,-179.18 1251.49,-134.39' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='1254.99,-134.3 1251.68,-124.23 1247.99,-134.17 1254.99,-134.3' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>d_superprove</title>
+<polygon fill='none' points='1866,-556 1774,-556 1774,-520 1872,-520 1872,-550 1866,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='1866,-556 1866,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='1872,-550 1866,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1823' y='-534.3'>superprove</text>
+</g>
+
+<g class='node' id='node15'>
+<title>pkg/superprove</title>
+<path d='M1887,-480.73C1887,-482.53 1858.31,-484 1823,-484 1787.69,-484 1759,-482.53 1759,-480.73 1759,-480.73 1759,-451.27 1759,-451.27 1759,-449.47 1787.69,-448 1823,-448 1858.31,-448 1887,-449.47 1887,-451.27 1887,-451.27 1887,-480.73 1887,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M1887,-480.73C1887,-478.92 1858.31,-477.45 1823,-477.45 1787.69,-477.45 1759,-478.92 1759,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1823' y='-462.3'>pkg/superprove</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>d_superprove&#45;&gt;pkg/superprove</title>
+<path d='M1823,-519.7C1823,-511.98 1823,-502.71 1823,-494.11' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='1826.5,-494.1 1823,-484.1 1819.5,-494.1 1826.5,-494.1' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>d_symbiyosys</title>
+<polygon fill='none' points='2311.5,-556 2218.5,-556 2218.5,-520 2317.5,-520 2317.5,-550 2311.5,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='2311.5,-556 2311.5,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='2317.5,-550 2311.5,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2268' y='-534.3'>symbiyosys</text>
+</g>
+
+<g class='node' id='node16'>
+<title>pkg/symbiyosys</title>
+<path d='M2294,-480.73C2294,-482.53 2264.87,-484 2229,-484 2193.13,-484 2164,-482.53 2164,-480.73 2164,-480.73 2164,-451.27 2164,-451.27 2164,-449.47 2193.13,-448 2229,-448 2264.87,-448 2294,-449.47 2294,-451.27 2294,-451.27 2294,-480.73 2294,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M2294,-480.73C2294,-478.92 2264.87,-477.45 2229,-477.45 2193.13,-477.45 2164,-478.92 2164,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2229' y='-462.3'>pkg/symbiyosys</text>
+</g>
+
+<g class='edge' id='edge9'>
+<title>d_symbiyosys&#45;&gt;pkg/symbiyosys</title>
+<path d='M2258.36,-519.7C2253.87,-511.64 2248.44,-501.89 2243.48,-492.98' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='2246.45,-491.14 2238.53,-484.1 2240.34,-494.54 2246.45,-491.14' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>d_yices2</title>
+<polygon fill='none' points='2043,-556 1987,-556 1987,-520 2049,-520 2049,-550 2043,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='2043,-556 2043,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='2049,-550 2043,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2018' y='-534.3'>yices2</text>
+</g>
+
+<g class='node' id='node17'>
+<title>pkg/yices2</title>
+<path d='M2064,-480.73C2064,-482.53 2043.38,-484 2018,-484 1992.62,-484 1972,-482.53 1972,-480.73 1972,-480.73 1972,-451.27 1972,-451.27 1972,-449.47 1992.62,-448 2018,-448 2043.38,-448 2064,-449.47 2064,-451.27 2064,-451.27 2064,-480.73 2064,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M2064,-480.73C2064,-478.92 2043.38,-477.45 2018,-477.45 1992.62,-477.45 1972,-478.92 1972,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2018' y='-462.3'>pkg/yices2</text>
+</g>
+
+<g class='edge' id='edge11'>
+<title>d_yices2&#45;&gt;pkg/yices2</title>
+<path d='M2018,-519.7C2018,-511.98 2018,-502.71 2018,-494.11' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='2021.5,-494.1 2018,-484.1 2014.5,-494.1 2021.5,-494.1' stroke='black'/>
+</g>
+
+<g class='node' id='node8'>
+<title>d_z3</title>
+<polygon fill='none' points='341,-556 293,-556 293,-520 347,-520 347,-550 341,-556' stroke='dodgerblue'/>
+<polyline fill='none' points='341,-556 341,-550 ' stroke='dodgerblue'/>
+<polyline fill='none' points='347,-550 341,-550 ' stroke='dodgerblue'/>
+<text fill='dodgerblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='320' y='-534.3'>z3</text>
+</g>
+
+<g class='node' id='node18'>
+<title>pkg/z3</title>
+<path d='M398,-480.73C398,-482.53 383.66,-484 366,-484 348.34,-484 334,-482.53 334,-480.73 334,-480.73 334,-451.27 334,-451.27 334,-449.47 348.34,-448 366,-448 383.66,-448 398,-449.47 398,-451.27 398,-451.27 398,-480.73 398,-480.73' fill='none' stroke='mediumblue'/>
+<path d='M398,-480.73C398,-478.92 383.66,-477.45 366,-477.45 348.34,-477.45 334,-478.92 334,-480.73' fill='none' stroke='mediumblue'/>
+<text fill='mediumblue' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='366' y='-462.3'>pkg/z3</text>
+</g>
+
+<g class='edge' id='edge13'>
+<title>d_z3&#45;&gt;pkg/z3</title>
+<path d='M331.37,-519.7C336.72,-511.56 343.2,-501.69 349.11,-492.7' fill='none' stroke='black' stroke-dasharray='1,5'/>
+<polygon fill='black' points='352.19,-494.38 354.76,-484.1 346.34,-490.54 352.19,-494.38' stroke='black'/>
+</g>
+
+<g class='node' id='node9'>
+<title>build/base</title>
+<path d='M2342,-696.73C2342,-698.53 2321.83,-700 2297,-700 2272.17,-700 2252,-698.53 2252,-696.73 2252,-696.73 2252,-667.27 2252,-667.27 2252,-665.47 2272.17,-664 2297,-664 2321.83,-664 2342,-665.47 2342,-667.27 2342,-667.27 2342,-696.73 2342,-696.73' fill='none' stroke='black'/>
+<path d='M2342,-696.73C2342,-694.92 2321.83,-693.45 2297,-693.45 2272.17,-693.45 2252,-694.92 2252,-696.73' fill='none' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2297' y='-678.3'>build/base</text>
+</g>
+
+<g class='node' id='node36'>
+<title>p_symbiyosys_build/base</title>
+<path d='M2342,-624.73C2342,-626.53 2321.83,-628 2297,-628 2272.17,-628 2252,-626.53 2252,-624.73 2252,-624.73 2252,-595.27 2252,-595.27 2252,-593.47 2272.17,-592 2297,-592 2321.83,-592 2342,-593.47 2342,-595.27 2342,-595.27 2342,-624.73 2342,-624.73' fill='none' stroke='grey'/>
+<path d='M2342,-624.73C2342,-622.92 2321.83,-621.45 2297,-621.45 2272.17,-621.45 2252,-622.92 2252,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2297' y='-606.3'>build/base</text>
+</g>
+
+<g class='edge' id='edge49'>
+<title>build/base&#45;&gt;p_symbiyosys_build/base</title>
+<path d='M2297,-663.7C2297,-655.98 2297,-646.71 2297,-638.11' fill='none' stroke='black'/>
+<polygon fill='black' points='2300.5,-638.1 2297,-628.1 2293.5,-638.1 2300.5,-638.1' stroke='black'/>
+</g>
+
+<g class='node' id='node10'>
+<title>build/build</title>
+<path d='M618.5,-696.73C618.5,-698.53 597.66,-700 572,-700 546.34,-700 525.5,-698.53 525.5,-696.73 525.5,-696.73 525.5,-667.27 525.5,-667.27 525.5,-665.47 546.34,-664 572,-664 597.66,-664 618.5,-665.47 618.5,-667.27 618.5,-667.27 618.5,-696.73 618.5,-696.73' fill='none' stroke='black'/>
+<path d='M618.5,-696.73C618.5,-694.92 597.66,-693.45 572,-693.45 546.34,-693.45 525.5,-694.92 525.5,-696.73' fill='none' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='572' y='-678.3'>build/build</text>
+</g>
+
+<g class='node' id='node24'>
+<title>p_boolector_build/build</title>
+<path d='M516.5,-624.73C516.5,-626.53 495.66,-628 470,-628 444.34,-628 423.5,-626.53 423.5,-624.73 423.5,-624.73 423.5,-595.27 423.5,-595.27 423.5,-593.47 444.34,-592 470,-592 495.66,-592 516.5,-593.47 516.5,-595.27 516.5,-595.27 516.5,-624.73 516.5,-624.73' fill='none' stroke='grey'/>
+<path d='M516.5,-624.73C516.5,-622.92 495.66,-621.45 470,-621.45 444.34,-621.45 423.5,-622.92 423.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='470' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge21'>
+<title>build/build&#45;&gt;p_boolector_build/build</title>
+<path d='M547.05,-663.88C533.96,-654.89 517.74,-643.76 503.56,-634.03' fill='none' stroke='black'/>
+<polygon fill='black' points='505.27,-630.96 495.05,-628.19 501.31,-636.73 505.27,-630.96' stroke='black'/>
+</g>
+
+<g class='node' id='node27'>
+<title>p_cvc_build/build</title>
+<path d='M720.5,-624.73C720.5,-626.53 699.66,-628 674,-628 648.34,-628 627.5,-626.53 627.5,-624.73 627.5,-624.73 627.5,-595.27 627.5,-595.27 627.5,-593.47 648.34,-592 674,-592 699.66,-592 720.5,-593.47 720.5,-595.27 720.5,-595.27 720.5,-624.73 720.5,-624.73' fill='none' stroke='grey'/>
+<path d='M720.5,-624.73C720.5,-622.92 699.66,-621.45 674,-621.45 648.34,-621.45 627.5,-622.92 627.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='674' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge25'>
+<title>build/build&#45;&gt;p_cvc_build/build</title>
+<path d='M596.95,-663.88C610.04,-654.89 626.26,-643.76 640.44,-634.03' fill='none' stroke='black'/>
+<polygon fill='black' points='642.69,-636.73 648.95,-628.19 638.73,-630.96 642.69,-636.73' stroke='black'/>
+</g>
+
+<g class='node' id='node30'>
+<title>p_pono_build/build</title>
+<path d='M108.5,-624.73C108.5,-626.53 87.66,-628 62,-628 36.34,-628 15.5,-626.53 15.5,-624.73 15.5,-624.73 15.5,-595.27 15.5,-595.27 15.5,-593.47 36.34,-592 62,-592 87.66,-592 108.5,-593.47 108.5,-595.27 108.5,-595.27 108.5,-624.73 108.5,-624.73' fill='none' stroke='grey'/>
+<path d='M108.5,-624.73C108.5,-622.92 87.66,-621.45 62,-621.45 36.34,-621.45 15.5,-622.92 15.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='62' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge45'>
+<title>build/build&#45;&gt;p_pono_build/build</title>
+<path d='M525.25,-681.37C441.79,-680.94 262.27,-675.05 117,-636 112.43,-634.77 107.76,-633.2 103.17,-631.44' fill='none' stroke='black'/>
+<polygon fill='black' points='104.5,-628.2 93.92,-627.63 101.83,-634.68 104.5,-628.2' stroke='black'/>
+</g>
+
+<g class='node' id='node33'>
+<title>p_superprove_build/build</title>
+<path d='M1848.5,-624.73C1848.5,-626.53 1827.66,-628 1802,-628 1776.34,-628 1755.5,-626.53 1755.5,-624.73 1755.5,-624.73 1755.5,-595.27 1755.5,-595.27 1755.5,-593.47 1776.34,-592 1802,-592 1827.66,-592 1848.5,-593.47 1848.5,-595.27 1848.5,-595.27 1848.5,-624.73 1848.5,-624.73' fill='none' stroke='grey'/>
+<path d='M1848.5,-624.73C1848.5,-622.92 1827.66,-621.45 1802,-621.45 1776.34,-621.45 1755.5,-622.92 1755.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1802' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge53'>
+<title>build/build&#45;&gt;p_superprove_build/build</title>
+<path d='M618.6,-675.27C650.03,-671.58 692.46,-666.95 730,-664 1117.64,-633.59 1585.58,-617.54 1745.37,-612.65' fill='none' stroke='black'/>
+<polygon fill='black' points='1745.55,-616.14 1755.44,-612.34 1745.34,-609.15 1745.55,-616.14' stroke='black'/>
+</g>
+
+<g class='node' id='node39'>
+<title>p_yices2_build/build</title>
+<path d='M2052.5,-624.73C2052.5,-626.53 2031.66,-628 2006,-628 1980.34,-628 1959.5,-626.53 1959.5,-624.73 1959.5,-624.73 1959.5,-595.27 1959.5,-595.27 1959.5,-593.47 1980.34,-592 2006,-592 2031.66,-592 2052.5,-593.47 2052.5,-595.27 2052.5,-595.27 2052.5,-624.73 2052.5,-624.73' fill='none' stroke='grey'/>
+<path d='M2052.5,-624.73C2052.5,-622.92 2031.66,-621.45 2006,-621.45 1980.34,-621.45 1959.5,-622.92 1959.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2006' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge57'>
+<title>build/build&#45;&gt;p_yices2_build/build</title>
+<path d='M618.58,-674.95C650,-671.12 692.42,-666.45 730,-664 865.08,-655.2 1815.75,-664.88 1948,-636 1953.36,-634.83 1958.83,-633.16 1964.18,-631.24' fill='none' stroke='black'/>
+<polygon fill='black' points='1965.57,-634.45 1973.6,-627.55 1963.02,-627.94 1965.57,-634.45' stroke='black'/>
+</g>
+
+<g class='node' id='node42'>
+<title>p_z3_build/build</title>
+<path d='M312.5,-624.73C312.5,-626.53 291.66,-628 266,-628 240.34,-628 219.5,-626.53 219.5,-624.73 219.5,-624.73 219.5,-595.27 219.5,-595.27 219.5,-593.47 240.34,-592 266,-592 291.66,-592 312.5,-593.47 312.5,-595.27 312.5,-595.27 312.5,-624.73 312.5,-624.73' fill='none' stroke='grey'/>
+<path d='M312.5,-624.73C312.5,-622.92 291.66,-621.45 266,-621.45 240.34,-621.45 219.5,-622.92 219.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='266' y='-606.3'>build/build</text>
+</g>
+
+<g class='edge' id='edge61'>
+<title>build/build&#45;&gt;p_z3_build/build</title>
+<path d='M525.37,-676.16C474.34,-670.07 390.53,-657.66 321,-636 316.77,-634.68 312.45,-633.12 308.17,-631.43' fill='none' stroke='black'/>
+<polygon fill='black' points='309.5,-628.2 298.93,-627.57 306.8,-634.66 309.5,-628.2' stroke='black'/>
+</g>
+
+<g class='node' id='node11'>
+<title>ghdl/yosys</title>
+<path d='M1438,-696.73C1438,-698.53 1417.38,-700 1392,-700 1366.62,-700 1346,-698.53 1346,-696.73 1346,-696.73 1346,-667.27 1346,-667.27 1346,-665.47 1366.62,-664 1392,-664 1417.38,-664 1438,-665.47 1438,-667.27 1438,-667.27 1438,-696.73 1438,-696.73' fill='none' stroke='limegreen'/>
+<path d='M1438,-696.73C1438,-694.92 1417.38,-693.45 1392,-693.45 1366.62,-693.45 1346,-694.92 1346,-696.73' fill='none' stroke='limegreen'/>
+<text fill='limegreen' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1392' y='-678.3'>ghdl/yosys</text>
+</g>
+
+<g class='node' id='node46'>
+<title>p_formal_ghdl</title>
+<path d='M1438,-408.73C1438,-410.53 1417.38,-412 1392,-412 1366.62,-412 1346,-410.53 1346,-408.73 1346,-408.73 1346,-379.27 1346,-379.27 1346,-377.47 1366.62,-376 1392,-376 1417.38,-376 1438,-377.47 1438,-379.27 1438,-379.27 1438,-408.73 1438,-408.73' fill='none' stroke='grey'/>
+<path d='M1438,-408.73C1438,-406.92 1417.38,-405.45 1392,-405.45 1366.62,-405.45 1346,-406.92 1346,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1392' y='-390.3'>ghdl/yosys</text>
+</g>
+
+<g class='edge' id='edge29'>
+<title>ghdl/yosys&#45;&gt;p_formal_ghdl</title>
+<path d='M1392,-663.97C1392,-616.29 1392,-481.18 1392,-422.63' fill='none' stroke='black'/>
+<polygon fill='black' points='1395.5,-422.31 1392,-412.31 1388.5,-422.31 1395.5,-422.31' stroke='black'/>
+</g>
+
+<g class='node' id='node25'>
+<title>t_pkg/boolector</title>
+<polygon fill='none' points='603.5,-412 600.5,-416 579.5,-416 576.5,-412 490.5,-412 490.5,-376 603.5,-376 603.5,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='547' y='-390.3'>boolector.pkg</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>pkg/boolector&#45;&gt;t_pkg/boolector</title>
+<path d='M547,-447.7C547,-439.98 547,-430.71 547,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='550.5,-422.1 547,-412.1 543.5,-422.1 550.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node44'>
+<title>p_formal_boolector</title>
+<path d='M1046,-408.73C1046,-410.53 1020.45,-412 989,-412 957.55,-412 932,-410.53 932,-408.73 932,-408.73 932,-379.27 932,-379.27 932,-377.47 957.55,-376 989,-376 1020.45,-376 1046,-377.47 1046,-379.27 1046,-379.27 1046,-408.73 1046,-408.73' fill='none' stroke='grey'/>
+<path d='M1046,-408.73C1046,-406.92 1020.45,-405.45 989,-405.45 957.55,-405.45 932,-406.92 932,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='989' y='-390.3'>pkg/boolector</text>
+</g>
+
+<g class='edge' id='edge33'>
+<title>pkg/boolector&#45;&gt;p_formal_boolector</title>
+<path d='M604.09,-450.23C608.11,-449.41 612.11,-448.65 616,-448 751.12,-425.33 789.49,-450.77 923,-420 928.81,-418.66 934.8,-416.93 940.69,-415' fill='none' stroke='black'/>
+<polygon fill='black' points='942.16,-418.19 950.46,-411.6 939.86,-411.58 942.16,-418.19' stroke='black'/>
+</g>
+
+<g class='node' id='node28'>
+<title>t_pkg/cvc</title>
+<polygon fill='none' points='807.5,-412 804.5,-416 783.5,-416 780.5,-412 736.5,-412 736.5,-376 807.5,-376 807.5,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='772' y='-390.3'>cvc.pkg</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>pkg/cvc&#45;&gt;t_pkg/cvc</title>
+<path d='M772,-447.7C772,-439.98 772,-430.71 772,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='775.5,-422.1 772,-412.1 768.5,-422.1 775.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node45'>
+<title>p_formal_cvc</title>
+<path d='M1135.5,-408.73C1135.5,-410.53 1119.59,-412 1100,-412 1080.41,-412 1064.5,-410.53 1064.5,-408.73 1064.5,-408.73 1064.5,-379.27 1064.5,-379.27 1064.5,-377.47 1080.41,-376 1100,-376 1119.59,-376 1135.5,-377.47 1135.5,-379.27 1135.5,-379.27 1135.5,-408.73 1135.5,-408.73' fill='none' stroke='grey'/>
+<path d='M1135.5,-408.73C1135.5,-406.92 1119.59,-405.45 1100,-405.45 1080.41,-405.45 1064.5,-406.92 1064.5,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1100' y='-390.3'>pkg/cvc</text>
+</g>
+
+<g class='edge' id='edge35'>
+<title>pkg/cvc&#45;&gt;p_formal_cvc</title>
+<path d='M807.81,-463.3C862.48,-459.83 969.41,-449.55 1055,-420 1058.13,-418.92 1061.29,-417.63 1064.41,-416.22' fill='none' stroke='black'/>
+<polygon fill='black' points='1066.18,-419.25 1073.59,-411.67 1063.07,-412.97 1066.18,-419.25' stroke='black'/>
+</g>
+
+<g class='node' id='node31'>
+<title>t_pkg/pono</title>
+<polygon fill='none' points='196,-412 193,-416 172,-416 169,-412 114,-412 114,-376 196,-376 196,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='155' y='-390.3'>pono.pkg</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>pkg/pono&#45;&gt;t_pkg/pono</title>
+<path d='M155,-447.7C155,-439.98 155,-430.71 155,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='158.5,-422.1 155,-412.1 151.5,-422.1 158.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node47'>
+<title>p_formal_pono</title>
+<path d='M914,-408.73C914,-410.53 895.62,-412 873,-412 850.38,-412 832,-410.53 832,-408.73 832,-408.73 832,-379.27 832,-379.27 832,-377.47 850.38,-376 873,-376 895.62,-376 914,-377.47 914,-379.27 914,-379.27 914,-408.73 914,-408.73' fill='none' stroke='grey'/>
+<path d='M914,-408.73C914,-406.92 895.62,-405.45 873,-405.45 850.38,-405.45 832,-406.92 832,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='873' y='-390.3'>pkg/pono</text>
+</g>
+
+<g class='edge' id='edge37'>
+<title>pkg/pono&#45;&gt;p_formal_pono</title>
+<path d='M196.11,-450.65C200.09,-449.61 204.1,-448.7 208,-448 475.98,-399.77 555.73,-485.58 820,-420 824.63,-418.85 829.35,-417.28 833.96,-415.49' fill='none' stroke='black'/>
+<polygon fill='black' points='835.38,-418.69 843.21,-411.55 832.64,-412.24 835.38,-418.69' stroke='black'/>
+</g>
+
+<g class='node' id='node34'>
+<title>t_pkg/superprove</title>
+<polygon fill='none' points='1887,-412 1884,-416 1863,-416 1860,-412 1759,-412 1759,-376 1887,-376 1887,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1823' y='-390.3'>superprove.pkg</text>
+</g>
+
+<g class='edge' id='edge8'>
+<title>pkg/superprove&#45;&gt;t_pkg/superprove</title>
+<path d='M1823,-447.7C1823,-439.98 1823,-430.71 1823,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='1826.5,-422.1 1823,-412.1 1819.5,-422.1 1826.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node49'>
+<title>p_formal_superprove</title>
+<path d='M1584,-408.73C1584,-410.53 1555.31,-412 1520,-412 1484.69,-412 1456,-410.53 1456,-408.73 1456,-408.73 1456,-379.27 1456,-379.27 1456,-377.47 1484.69,-376 1520,-376 1555.31,-376 1584,-377.47 1584,-379.27 1584,-379.27 1584,-408.73 1584,-408.73' fill='none' stroke='grey'/>
+<path d='M1584,-408.73C1584,-406.92 1555.31,-405.45 1520,-405.45 1484.69,-405.45 1456,-406.92 1456,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1520' y='-390.3'>pkg/superprove</text>
+</g>
+
+<g class='edge' id='edge41'>
+<title>pkg/superprove&#45;&gt;p_formal_superprove</title>
+<path d='M1758.51,-454.81C1712.11,-446.89 1648.22,-434.78 1593,-420 1587.06,-418.41 1580.89,-416.58 1574.78,-414.66' fill='none' stroke='black'/>
+<polygon fill='black' points='1575.86,-411.33 1565.27,-411.57 1573.7,-417.99 1575.86,-411.33' stroke='black'/>
+</g>
+
+<g class='node' id='node37'>
+<title>t_pkg/symbiyosys</title>
+<polygon fill='none' points='2294,-412 2291,-416 2270,-416 2267,-412 2164,-412 2164,-376 2294,-376 2294,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2229' y='-390.3'>symbiyosys.pkg</text>
+</g>
+
+<g class='edge' id='edge10'>
+<title>pkg/symbiyosys&#45;&gt;t_pkg/symbiyosys</title>
+<path d='M2229,-447.7C2229,-439.98 2229,-430.71 2229,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='2232.5,-422.1 2229,-412.1 2225.5,-422.1 2232.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node48'>
+<title>p_formal_symbiyosys</title>
+<path d='M1732,-408.73C1732,-410.53 1702.87,-412 1667,-412 1631.13,-412 1602,-410.53 1602,-408.73 1602,-408.73 1602,-379.27 1602,-379.27 1602,-377.47 1631.13,-376 1667,-376 1702.87,-376 1732,-377.47 1732,-379.27 1732,-379.27 1732,-408.73 1732,-408.73' fill='none' stroke='grey'/>
+<path d='M1732,-408.73C1732,-406.92 1702.87,-405.45 1667,-405.45 1631.13,-405.45 1602,-406.92 1602,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1667' y='-390.3'>pkg/symbiyosys</text>
+</g>
+
+<g class='edge' id='edge31'>
+<title>pkg/symbiyosys&#45;&gt;p_formal_symbiyosys</title>
+<path d='M2163.59,-449.86C2159.68,-449.18 2155.79,-448.55 2152,-448 1972.09,-422.11 1922.45,-454.55 1744,-420 1736.61,-418.57 1728.95,-416.64 1721.44,-414.49' fill='none' stroke='black'/>
+<polygon fill='black' points='1722.29,-411.09 1711.71,-411.56 1720.27,-417.8 1722.29,-411.09' stroke='black'/>
+</g>
+
+<g class='node' id='node40'>
+<title>t_pkg/yices2</title>
+<polygon fill='none' points='2064,-412 2061,-416 2040,-416 2037,-412 1972,-412 1972,-376 2064,-376 2064,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2018' y='-390.3'>yices2.pkg</text>
+</g>
+
+<g class='edge' id='edge12'>
+<title>pkg/yices2&#45;&gt;t_pkg/yices2</title>
+<path d='M2018,-447.7C2018,-439.98 2018,-430.71 2018,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='2021.5,-422.1 2018,-412.1 2014.5,-422.1 2021.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node51'>
+<title>p_formal_yices2</title>
+<path d='M1246,-408.73C1246,-410.53 1225.38,-412 1200,-412 1174.62,-412 1154,-410.53 1154,-408.73 1154,-408.73 1154,-379.27 1154,-379.27 1154,-377.47 1174.62,-376 1200,-376 1225.38,-376 1246,-377.47 1246,-379.27 1246,-379.27 1246,-408.73 1246,-408.73' fill='none' stroke='grey'/>
+<path d='M1246,-408.73C1246,-406.92 1225.38,-405.45 1200,-405.45 1174.62,-405.45 1154,-406.92 1154,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1200' y='-390.3'>pkg/yices2</text>
+</g>
+
+<g class='edge' id='edge39'>
+<title>pkg/yices2&#45;&gt;p_formal_yices2</title>
+<path d='M1971.94,-452.45C1964,-450.68 1955.8,-449.09 1948,-448 1795.37,-426.6 1404.94,-455.66 1255,-420 1250.27,-418.88 1245.46,-417.34 1240.74,-415.58' fill='none' stroke='black'/>
+<polygon fill='black' points='1241.83,-412.24 1231.25,-411.71 1239.19,-418.73 1241.83,-412.24' stroke='black'/>
+</g>
+
+<g class='node' id='node43'>
+<title>t_pkg/z3</title>
+<polygon fill='none' points='398,-412 395,-416 374,-416 371,-412 334,-412 334,-376 398,-376 398,-412' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='366' y='-390.3'>z3.pkg</text>
+</g>
+
+<g class='edge' id='edge14'>
+<title>pkg/z3&#45;&gt;t_pkg/z3</title>
+<path d='M366,-447.7C366,-439.98 366,-430.71 366,-422.11' fill='none' stroke='black'/>
+<polygon fill='black' points='369.5,-422.1 366,-412.1 362.5,-422.1 369.5,-422.1' stroke='black'/>
+</g>
+
+<g class='node' id='node50'>
+<title>p_formal_z3</title>
+<path d='M1328,-408.73C1328,-410.53 1313.66,-412 1296,-412 1278.34,-412 1264,-410.53 1264,-408.73 1264,-408.73 1264,-379.27 1264,-379.27 1264,-377.47 1278.34,-376 1296,-376 1313.66,-376 1328,-377.47 1328,-379.27 1328,-379.27 1328,-408.73 1328,-408.73' fill='none' stroke='grey'/>
+<path d='M1328,-408.73C1328,-406.92 1313.66,-405.45 1296,-405.45 1278.34,-405.45 1264,-406.92 1264,-408.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1296' y='-390.3'>pkg/z3</text>
+</g>
+
+<g class='edge' id='edge43'>
+<title>pkg/z3&#45;&gt;p_formal_z3</title>
+<path d='M398.04,-451.68C402.66,-450.2 407.4,-448.9 412,-448 595.93,-411.94 1075.41,-473.67 1255,-420 1258.12,-419.07 1261.23,-417.84 1264.28,-416.43' fill='none' stroke='black'/>
+<polygon fill='black' points='1265.93,-419.52 1273.14,-411.75 1262.66,-413.33 1265.93,-419.52' stroke='black'/>
+</g>
+
+<g class='edge' id='edge68'>
+<title>formal/min&#45;&gt;formal</title>
+<path d='M1284.82,-232.23C1267.3,-222.5 1245.09,-210.16 1226.46,-199.81' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='1228.08,-196.71 1217.64,-194.91 1224.68,-202.82 1228.08,-196.71' stroke='black'/>
+</g>
+
+<g class='node' id='node52'>
+<title>t_formal/min</title>
+<polygon fill='none' points='1451.5,-52 1448.5,-56 1427.5,-56 1424.5,-52 1352.5,-52 1352.5,-16 1451.5,-16 1451.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1402' y='-30.3'>formal&#45;&#45;min</text>
+</g>
+
+<g class='edge' id='edge18'>
+<title>formal/min&#45;&gt;t_formal/min</title>
+<path d='M1321.97,-231.85C1337.12,-194.6 1373.11,-106.07 1391.21,-61.54' fill='none' stroke='black'/>
+<polygon fill='black' points='1394.47,-62.81 1394.99,-52.23 1387.99,-60.18 1394.47,-62.81' stroke='black'/>
+</g>
+
+<g class='edge' id='edge69'>
+<title>formal&#45;&gt;formal/all</title>
+<path d='M1204.57,-159.7C1212.2,-151.22 1221.52,-140.86 1229.88,-131.58' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='1232.52,-133.88 1236.61,-124.1 1227.31,-129.2 1232.52,-133.88' stroke='black'/>
+</g>
+
+<g class='node' id='node53'>
+<title>t_formal</title>
+<polygon fill='none' points='1191.5,-52 1188.5,-56 1167.5,-56 1164.5,-52 1128.5,-52 1128.5,-16 1191.5,-16 1191.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1160' y='-30.3'>formal</text>
+</g>
+
+<g class='edge' id='edge19'>
+<title>formal&#45;&gt;t_formal</title>
+<path d='M1185.5,-159.87C1180.54,-135.56 1171.4,-90.82 1165.52,-62.01' fill='none' stroke='black'/>
+<polygon fill='black' points='1168.94,-61.29 1163.51,-52.19 1162.08,-62.69 1168.94,-61.29' stroke='black'/>
+</g>
+
+<g class='node' id='node54'>
+<title>t_formal/all</title>
+<polygon fill='none' points='1298.5,-52 1295.5,-56 1274.5,-56 1271.5,-52 1209.5,-52 1209.5,-16 1298.5,-16 1298.5,-52' stroke='red'/>
+<text fill='red' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1254' y='-30.3'>formal&#45;&#45;all</text>
+</g>
+
+<g class='edge' id='edge20'>
+<title>formal/all&#45;&gt;t_formal/all</title>
+<path d='M1252.49,-87.7C1252.71,-79.98 1252.98,-70.71 1253.23,-62.11' fill='none' stroke='black'/>
+<polygon fill='black' points='1256.72,-62.2 1253.51,-52.1 1249.73,-62 1256.72,-62.2' stroke='black'/>
+</g>
+
+<g class='node' id='node22'>
+<title>scratch</title>
+<path d='M807.5,-696.73C807.5,-698.53 792.04,-700 773,-700 753.96,-700 738.5,-698.53 738.5,-696.73 738.5,-696.73 738.5,-667.27 738.5,-667.27 738.5,-665.47 753.96,-664 773,-664 792.04,-664 807.5,-665.47 807.5,-667.27 807.5,-667.27 807.5,-696.73 807.5,-696.73' fill='none' stroke='orange'/>
+<path d='M807.5,-696.73C807.5,-694.92 792.04,-693.45 773,-693.45 753.96,-693.45 738.5,-694.92 738.5,-696.73' fill='none' stroke='orange'/>
+<text fill='orange' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='773' y='-678.3'>scratch</text>
+</g>
+
+<g class='node' id='node23'>
+<title>p_boolector_scratch</title>
+<path d='M603.5,-624.73C603.5,-626.53 588.04,-628 569,-628 549.96,-628 534.5,-626.53 534.5,-624.73 534.5,-624.73 534.5,-595.27 534.5,-595.27 534.5,-593.47 549.96,-592 569,-592 588.04,-592 603.5,-593.47 603.5,-595.27 603.5,-595.27 603.5,-624.73 603.5,-624.73' fill='none' stroke='grey'/>
+<path d='M603.5,-624.73C603.5,-622.92 588.04,-621.45 569,-621.45 549.96,-621.45 534.5,-622.92 534.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='569' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge23'>
+<title>scratch&#45;&gt;p_boolector_scratch</title>
+<path d='M738.31,-673.28C706.02,-665.57 656.88,-652.52 616,-636 612.77,-634.7 609.48,-633.24 606.21,-631.69' fill='none' stroke='black'/>
+<polygon fill='black' points='607.64,-628.49 597.12,-627.19 604.53,-634.77 607.64,-628.49' stroke='black'/>
+</g>
+
+<g class='node' id='node26'>
+<title>p_cvc_scratch</title>
+<path d='M807.5,-624.73C807.5,-626.53 792.04,-628 773,-628 753.96,-628 738.5,-626.53 738.5,-624.73 738.5,-624.73 738.5,-595.27 738.5,-595.27 738.5,-593.47 753.96,-592 773,-592 792.04,-592 807.5,-593.47 807.5,-595.27 807.5,-595.27 807.5,-624.73 807.5,-624.73' fill='none' stroke='grey'/>
+<path d='M807.5,-624.73C807.5,-622.92 792.04,-621.45 773,-621.45 753.96,-621.45 738.5,-622.92 738.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='773' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge27'>
+<title>scratch&#45;&gt;p_cvc_scratch</title>
+<path d='M773,-663.7C773,-655.98 773,-646.71 773,-638.11' fill='none' stroke='black'/>
+<polygon fill='black' points='776.5,-638.1 773,-628.1 769.5,-638.1 776.5,-638.1' stroke='black'/>
+</g>
+
+<g class='node' id='node29'>
+<title>p_pono_scratch</title>
+<path d='M195.5,-624.73C195.5,-626.53 180.04,-628 161,-628 141.96,-628 126.5,-626.53 126.5,-624.73 126.5,-624.73 126.5,-595.27 126.5,-595.27 126.5,-593.47 141.96,-592 161,-592 180.04,-592 195.5,-593.47 195.5,-595.27 195.5,-595.27 195.5,-624.73 195.5,-624.73' fill='none' stroke='grey'/>
+<path d='M195.5,-624.73C195.5,-622.92 180.04,-621.45 161,-621.45 141.96,-621.45 126.5,-622.92 126.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='161' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge47'>
+<title>scratch&#45;&gt;p_pono_scratch</title>
+<path d='M738.48,-676.46C709.13,-672.72 665.86,-667.48 628,-664 441.7,-646.88 387.91,-687.29 208,-636 204.21,-634.92 200.38,-633.5 196.62,-631.9' fill='none' stroke='black'/>
+<polygon fill='black' points='198.05,-628.7 187.51,-627.59 195.05,-635.03 198.05,-628.7' stroke='black'/>
+</g>
+
+<g class='node' id='node32'>
+<title>p_superprove_scratch</title>
+<path d='M1935.5,-624.73C1935.5,-626.53 1920.04,-628 1901,-628 1881.96,-628 1866.5,-626.53 1866.5,-624.73 1866.5,-624.73 1866.5,-595.27 1866.5,-595.27 1866.5,-593.47 1881.96,-592 1901,-592 1920.04,-592 1935.5,-593.47 1935.5,-595.27 1935.5,-595.27 1935.5,-624.73 1935.5,-624.73' fill='none' stroke='grey'/>
+<path d='M1935.5,-624.73C1935.5,-622.92 1920.04,-621.45 1901,-621.45 1881.96,-621.45 1866.5,-622.92 1866.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='1901' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge55'>
+<title>scratch&#45;&gt;p_superprove_scratch</title>
+<path d='M807.54,-680.03C986.98,-674.96 1806.45,-651.05 1858,-636 1861.33,-635.03 1864.68,-633.74 1867.96,-632.27' fill='none' stroke='black'/>
+<polygon fill='black' points='1869.59,-635.36 1876.92,-627.71 1866.42,-629.12 1869.59,-635.36' stroke='black'/>
+</g>
+
+<g class='node' id='node35'>
+<title>p_symbiyosys_scratch</title>
+<path d='M2233.5,-624.73C2233.5,-626.53 2218.04,-628 2199,-628 2179.96,-628 2164.5,-626.53 2164.5,-624.73 2164.5,-624.73 2164.5,-595.27 2164.5,-595.27 2164.5,-593.47 2179.96,-592 2199,-592 2218.04,-592 2233.5,-593.47 2233.5,-595.27 2233.5,-595.27 2233.5,-624.73 2233.5,-624.73' fill='none' stroke='grey'/>
+<path d='M2233.5,-624.73C2233.5,-622.92 2218.04,-621.45 2199,-621.45 2179.96,-621.45 2164.5,-622.92 2164.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2199' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge51'>
+<title>scratch&#45;&gt;p_symbiyosys_scratch</title>
+<path d='M807.55,-679.93C1020.29,-673.3 2143.62,-638.24 2152,-636 2155.91,-634.96 2159.85,-633.54 2163.71,-631.91' fill='none' stroke='black'/>
+<polygon fill='black' points='2165.49,-634.94 2173.03,-627.5 2162.49,-628.61 2165.49,-634.94' stroke='black'/>
+</g>
+
+<g class='node' id='node38'>
+<title>p_yices2_scratch</title>
+<path d='M2139.5,-624.73C2139.5,-626.53 2124.04,-628 2105,-628 2085.96,-628 2070.5,-626.53 2070.5,-624.73 2070.5,-624.73 2070.5,-595.27 2070.5,-595.27 2070.5,-593.47 2085.96,-592 2105,-592 2124.04,-592 2139.5,-593.47 2139.5,-595.27 2139.5,-595.27 2139.5,-624.73 2139.5,-624.73' fill='none' stroke='grey'/>
+<path d='M2139.5,-624.73C2139.5,-622.92 2124.04,-621.45 2105,-621.45 2085.96,-621.45 2070.5,-622.92 2070.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='2105' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge59'>
+<title>scratch&#45;&gt;p_yices2_scratch</title>
+<path d='M807.69,-679.9C1011.67,-673.44 2046.49,-640.47 2062,-636 2065.34,-635.04 2068.69,-633.76 2071.96,-632.29' fill='none' stroke='black'/>
+<polygon fill='black' points='2073.59,-635.39 2080.93,-627.74 2070.43,-629.15 2073.59,-635.39' stroke='black'/>
+</g>
+
+<g class='node' id='node41'>
+<title>p_z3_scratch</title>
+<path d='M399.5,-624.73C399.5,-626.53 384.04,-628 365,-628 345.96,-628 330.5,-626.53 330.5,-624.73 330.5,-624.73 330.5,-595.27 330.5,-595.27 330.5,-593.47 345.96,-592 365,-592 384.04,-592 399.5,-593.47 399.5,-595.27 399.5,-595.27 399.5,-624.73 399.5,-624.73' fill='none' stroke='grey'/>
+<path d='M399.5,-624.73C399.5,-622.92 384.04,-621.45 365,-621.45 345.96,-621.45 330.5,-622.92 330.5,-624.73' fill='none' stroke='grey'/>
+<text fill='grey' font-family='Times,serif' font-size='14.00' text-anchor='middle' x='365' y='-606.3'>scratch</text>
+</g>
+
+<g class='edge' id='edge63'>
+<title>scratch&#45;&gt;p_z3_scratch</title>
+<path d='M738.28,-676.84C649.34,-666.16 419.76,-638.46 412,-636 408.24,-634.81 404.43,-633.32 400.69,-631.67' fill='none' stroke='black'/>
+<polygon fill='black' points='402.13,-628.48 391.6,-627.3 399.09,-634.79 402.13,-628.48' stroke='black'/>
+</g>
+
+<g class='edge' id='edge24'>
+<title>p_boolector_scratch&#45;&gt;d_boolector</title>
+<path d='M553.92,-591.7C546.61,-583.3 537.69,-573.07 529.66,-563.86' fill='none' stroke='black'/>
+<polygon fill='black' points='532.11,-561.34 522.91,-556.1 526.84,-565.94 532.11,-561.34' stroke='black'/>
+</g>
+
+<g class='edge' id='edge65'>
+<title>p_boolector_scratch&#45;&gt;pkg/boolector</title>
+<path d='M567.64,-591.86C566.08,-573.88 563.19,-544.84 559,-520 557.56,-511.5 555.62,-502.31 553.72,-494.01' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='557.08,-493.02 551.38,-484.09 550.27,-494.63 557.08,-493.02' stroke='black'/>
+</g>
+
+<g class='edge' id='edge22'>
+<title>p_boolector_build/build&#45;&gt;d_boolector</title>
+<path d='M479.39,-591.7C483.76,-583.64 489.06,-573.89 493.9,-564.98' fill='none' stroke='black'/>
+<polygon fill='black' points='497.02,-566.56 498.71,-556.1 490.87,-563.22 497.02,-566.56' stroke='black'/>
+</g>
+
+<g class='edge' id='edge28'>
+<title>p_cvc_scratch&#45;&gt;d_cvc</title>
+<path d='M761.63,-591.7C756.28,-583.56 749.8,-573.69 743.89,-564.7' fill='none' stroke='black'/>
+<polygon fill='black' points='746.66,-562.54 738.24,-556.1 740.81,-566.38 746.66,-562.54' stroke='black'/>
+</g>
+
+<g class='edge' id='edge66'>
+<title>p_cvc_scratch&#45;&gt;pkg/cvc</title>
+<path d='M772.88,-591.87C772.71,-567.67 772.4,-523.21 772.19,-494.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='775.69,-494.16 772.12,-484.19 768.69,-494.21 775.69,-494.16' stroke='black'/>
+</g>
+
+<g class='edge' id='edge26'>
+<title>p_cvc_build/build&#45;&gt;d_cvc</title>
+<path d='M687.1,-591.7C693.39,-583.39 701.05,-573.28 707.96,-564.14' fill='none' stroke='black'/>
+<polygon fill='black' points='710.8,-566.19 714.05,-556.1 705.22,-561.96 710.8,-566.19' stroke='black'/>
+</g>
+
+<g class='edge' id='edge48'>
+<title>p_pono_scratch&#45;&gt;d_pono</title>
+<path d='M149.63,-591.7C144.28,-583.56 137.8,-573.69 131.89,-564.7' fill='none' stroke='black'/>
+<polygon fill='black' points='134.66,-562.54 126.24,-556.1 128.81,-566.38 134.66,-562.54' stroke='black'/>
+</g>
+
+<g class='edge' id='edge70'>
+<title>p_pono_scratch&#45;&gt;pkg/pono</title>
+<path d='M160.28,-591.87C159.25,-567.67 157.38,-523.21 156.16,-494.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='159.65,-494.03 155.73,-484.19 152.65,-494.33 159.65,-494.03' stroke='black'/>
+</g>
+
+<g class='edge' id='edge46'>
+<title>p_pono_build/build&#45;&gt;d_pono</title>
+<path d='M75.1,-591.7C81.39,-583.39 89.05,-573.28 95.96,-564.14' fill='none' stroke='black'/>
+<polygon fill='black' points='98.8,-566.19 102.05,-556.1 93.22,-561.96 98.8,-566.19' stroke='black'/>
+</g>
+
+<g class='edge' id='edge56'>
+<title>p_superprove_scratch&#45;&gt;d_superprove</title>
+<path d='M1881.72,-591.7C1872.08,-583.05 1860.27,-572.45 1849.77,-563.03' fill='none' stroke='black'/>
+<polygon fill='black' points='1851.84,-560.18 1842.06,-556.1 1847.16,-565.39 1851.84,-560.18' stroke='black'/>
+</g>
+
+<g class='edge' id='edge71'>
+<title>p_superprove_scratch&#45;&gt;pkg/superprove</title>
+<path d='M1900.19,-591.83C1898.63,-573.04 1894.11,-542.6 1881,-520 1874.64,-509.03 1865.24,-499.04 1855.86,-490.76' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='1857.97,-487.96 1848.05,-484.23 1853.48,-493.33 1857.97,-487.96' stroke='black'/>
+</g>
+
+<g class='edge' id='edge54'>
+<title>p_superprove_build/build&#45;&gt;d_superprove</title>
+<path d='M1807.19,-591.7C1809.53,-583.9 1812.35,-574.51 1814.95,-565.83' fill='none' stroke='black'/>
+<polygon fill='black' points='1818.35,-566.69 1817.87,-556.1 1811.64,-564.68 1818.35,-566.69' stroke='black'/>
+</g>
+
+<g class='edge' id='edge52'>
+<title>p_symbiyosys_scratch&#45;&gt;d_symbiyosys</title>
+<path d='M2216.06,-591.7C2224.5,-583.14 2234.82,-572.66 2244.04,-563.3' fill='none' stroke='black'/>
+<polygon fill='black' points='2246.61,-565.68 2251.14,-556.1 2241.63,-560.77 2246.61,-565.68' stroke='black'/>
+</g>
+
+<g class='edge' id='edge72'>
+<title>p_symbiyosys_scratch&#45;&gt;pkg/symbiyosys</title>
+<path d='M2200,-591.74C2201.31,-573.66 2204.16,-544.54 2210,-520 2212.06,-511.35 2215.05,-502.15 2218.06,-493.89' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='2221.4,-494.96 2221.67,-484.37 2214.85,-492.48 2221.4,-494.96' stroke='black'/>
+</g>
+
+<g class='edge' id='edge50'>
+<title>p_symbiyosys_build/base&#45;&gt;d_symbiyosys</title>
+<path d='M2289.83,-591.7C2286.57,-583.81 2282.63,-574.3 2279,-565.55' fill='none' stroke='black'/>
+<polygon fill='black' points='2282.15,-564 2275.09,-556.1 2275.68,-566.68 2282.15,-564' stroke='black'/>
+</g>
+
+<g class='edge' id='edge60'>
+<title>p_yices2_scratch&#45;&gt;d_yices2</title>
+<path d='M2083.94,-592.05C2072.91,-583.18 2059.22,-572.17 2047.19,-562.48' fill='none' stroke='black'/>
+<polygon fill='black' points='2049.15,-559.57 2039.17,-556.03 2044.76,-565.03 2049.15,-559.57' stroke='black'/>
+</g>
+
+<g class='edge' id='edge73'>
+<title>p_yices2_scratch&#45;&gt;pkg/yices2</title>
+<path d='M2096.95,-591.81C2088.15,-573.55 2073.28,-544.04 2058,-520 2052.06,-510.66 2044.95,-500.87 2038.39,-492.29' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='2040.97,-489.9 2032.06,-484.16 2035.44,-494.2 2040.97,-489.9' stroke='black'/>
+</g>
+
+<g class='edge' id='edge58'>
+<title>p_yices2_build/build&#45;&gt;d_yices2</title>
+<path d='M2008.97,-591.7C2010.29,-583.98 2011.88,-574.71 2013.35,-566.11' fill='none' stroke='black'/>
+<polygon fill='black' points='2016.83,-566.55 2015.07,-556.1 2009.93,-565.37 2016.83,-566.55' stroke='black'/>
+</g>
+
+<g class='edge' id='edge64'>
+<title>p_z3_scratch&#45;&gt;d_z3</title>
+<path d='M353.88,-591.7C348.64,-583.56 342.3,-573.69 336.52,-564.7' fill='none' stroke='black'/>
+<polygon fill='black' points='339.35,-562.62 331,-556.1 333.46,-566.41 339.35,-562.62' stroke='black'/>
+</g>
+
+<g class='edge' id='edge74'>
+<title>p_z3_scratch&#45;&gt;pkg/z3</title>
+<path d='M365.12,-591.87C365.29,-567.67 365.6,-523.21 365.81,-494.39' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='369.31,-494.21 365.88,-484.19 362.31,-494.16 369.31,-494.21' stroke='black'/>
+</g>
+
+<g class='edge' id='edge62'>
+<title>p_z3_build/build&#45;&gt;d_z3</title>
+<path d='M279.35,-591.7C285.76,-583.39 293.56,-573.28 300.61,-564.14' fill='none' stroke='black'/>
+<polygon fill='black' points='303.47,-566.16 306.81,-556.1 297.93,-561.88 303.47,-566.16' stroke='black'/>
+</g>
+
+<g class='edge' id='edge34'>
+<title>p_formal_boolector&#45;&gt;d_formal</title>
+<path d='M1030.54,-376.57C1038.9,-373.52 1047.68,-370.52 1056,-368 1107.14,-352.53 1167.28,-339.2 1206.44,-331.15' fill='none' stroke='black'/>
+<polygon fill='black' points='1207.31,-334.54 1216.42,-329.12 1205.92,-327.68 1207.31,-334.54' stroke='black'/>
+</g>
+
+<g class='edge' id='edge77'>
+<title>p_formal_boolector&#45;&gt;formal</title>
+<path d='M1005.03,-375.85C1040.36,-338.05 1125.03,-247.45 1166.01,-203.6' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1168.62,-205.93 1172.89,-196.23 1163.51,-201.15 1168.62,-205.93' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge36'>
+<title>p_formal_cvc&#45;&gt;d_formal</title>
+<path d='M1128.35,-376.72C1133.82,-373.72 1139.55,-370.7 1145,-368 1165.05,-358.08 1187.8,-348.02 1206.8,-339.94' fill='none' stroke='black'/>
+<polygon fill='black' points='1208.23,-343.13 1216.09,-336.02 1205.51,-336.68 1208.23,-343.13' stroke='black'/>
+</g>
+
+<g class='edge' id='edge78'>
+<title>p_formal_cvc&#45;&gt;formal</title>
+<path d='M1107.13,-375.85C1122.63,-338.6 1159.44,-250.07 1177.96,-205.54' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1181.22,-206.81 1181.83,-196.23 1174.76,-204.12 1181.22,-206.81' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge30'>
+<title>p_formal_ghdl&#45;&gt;d_formal</title>
+<path d='M1358.24,-376.59C1337.44,-366.48 1310.63,-353.45 1288.66,-342.77' fill='none' stroke='black'/>
+<polygon fill='black' points='1290.1,-339.57 1279.58,-338.35 1287.04,-345.87 1290.1,-339.57' stroke='black'/>
+</g>
+
+<g class='edge' id='edge67'>
+<title>p_formal_ghdl&#45;&gt;formal/min</title>
+<path d='M1377.57,-375.55C1369.7,-365.53 1360.14,-352.5 1353,-340 1341.59,-320.03 1331.52,-295.97 1324.62,-277.9' fill='none' stroke='black' stroke-dasharray='5,2'/>
+<polygon fill='black' points='1327.8,-276.43 1321.02,-268.29 1321.25,-278.88 1327.8,-276.43' stroke='black'/>
+</g>
+
+<g class='edge' id='edge38'>
+<title>p_formal_pono&#45;&gt;d_formal</title>
+<path d='M902.21,-376.41C908.88,-373.19 916.05,-370.16 923,-368 1021.49,-337.47 1143.2,-327.61 1206.05,-324.46' fill='none' stroke='black'/>
+<polygon fill='black' points='1206.52,-327.94 1216.34,-323.98 1206.19,-320.95 1206.52,-327.94' stroke='black'/>
+</g>
+
+<g class='edge' id='edge79'>
+<title>p_formal_pono&#45;&gt;formal</title>
+<path d='M896.06,-376.03C936.96,-346.1 1025.17,-282.33 1102,-232 1118.45,-221.22 1137.02,-209.81 1152.77,-200.35' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1154.89,-203.16 1161.67,-195.02 1151.3,-197.15 1154.89,-203.16' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge32'>
+<title>p_formal_symbiyosys&#45;&gt;d_formal</title>
+<path d='M1622.82,-376.39C1613.1,-373.22 1602.79,-370.2 1593,-368 1488.22,-344.46 1459.36,-354.81 1353,-340 1332.07,-337.09 1308.87,-333.38 1289.61,-330.17' fill='none' stroke='black'/>
+<polygon fill='black' points='1290.09,-326.7 1279.65,-328.5 1288.93,-333.61 1290.09,-326.7' stroke='black'/>
+</g>
+
+<g class='edge' id='edge75'>
+<title>p_formal_symbiyosys&#45;&gt;formal/min</title>
+<path d='M1625.24,-376.15C1560.01,-349.84 1434.23,-299.1 1364.53,-270.98' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1365.66,-267.66 1355.08,-267.17 1363.05,-274.16 1365.66,-267.66' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge42'>
+<title>p_formal_superprove&#45;&gt;d_formal</title>
+<path d='M1474.29,-376.5C1465.3,-373.5 1455.89,-370.52 1447,-368 1393.24,-352.76 1330.16,-339.22 1289.67,-331.06' fill='none' stroke='black'/>
+<polygon fill='black' points='1290.12,-327.58 1279.63,-329.06 1288.75,-334.45 1290.12,-327.58' stroke='black'/>
+</g>
+
+<g class='edge' id='edge81'>
+<title>p_formal_superprove&#45;&gt;formal/all</title>
+<path d='M1504.56,-375.97C1477.78,-346.47 1420.87,-284.02 1372,-232 1338.96,-196.83 1300.21,-156.66 1275.88,-131.56' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1278.29,-129.02 1268.81,-124.28 1273.27,-133.89 1278.29,-129.02' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge44'>
+<title>p_formal_z3&#45;&gt;d_formal</title>
+<path d='M1284.13,-375.7C1278.5,-367.47 1271.65,-357.48 1265.43,-348.42' fill='none' stroke='black'/>
+<polygon fill='black' points='1268.27,-346.37 1259.73,-340.1 1262.5,-350.33 1268.27,-346.37' stroke='black'/>
+</g>
+
+<g class='edge' id='edge76'>
+<title>p_formal_z3&#45;&gt;formal/min</title>
+<path d='M1298.29,-375.87C1301.53,-351.67 1307.48,-307.21 1311.33,-278.39' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1314.84,-278.57 1312.7,-268.19 1307.9,-277.64 1314.84,-278.57' stroke='grey'/>
+</g>
+
+<g class='edge' id='edge40'>
+<title>p_formal_yices2&#45;&gt;d_formal</title>
+<path d='M1211.87,-375.7C1217.5,-367.47 1224.35,-357.48 1230.57,-348.42' fill='none' stroke='black'/>
+<polygon fill='black' points='1233.5,-350.33 1236.27,-340.1 1227.73,-346.37 1233.5,-350.33' stroke='black'/>
+</g>
+
+<g class='edge' id='edge80'>
+<title>p_formal_yices2&#45;&gt;formal</title>
+<path d='M1199.12,-375.85C1197.22,-338.83 1192.71,-251.18 1190.41,-206.39' fill='none' stroke='grey' stroke-dasharray='5,2'/>
+<polygon fill='grey' points='1193.89,-206.04 1189.89,-196.23 1186.9,-206.4 1193.89,-206.04' stroke='grey'/>
+</g>
+</g>
+</svg>
