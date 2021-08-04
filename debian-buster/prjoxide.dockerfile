@@ -31,7 +31,7 @@ RUN apt-get update -qq \
 
 RUN git clone --recurse-submodules https://github.com/gatecat/prjoxide /tmp/prjoxide \
  && cd /tmp/prjoxide/libprjoxide \
- && cargo install --path prjoxide --root /opt/prjoxide
+ && cargo install --locked --path prjoxide --root /opt/prjoxide
 
 #---
 
